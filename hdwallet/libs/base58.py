@@ -2,7 +2,7 @@
 
 from hashlib import sha256
 
-from Crypto.Hash import keccak
+from Cryptodome.Hash import keccak
 import six
 
 
