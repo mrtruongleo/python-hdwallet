@@ -47,7 +47,7 @@ from typing import (
 import hmac
 import ecdsa
 import struct
-from Crypto.Hash import keccak
+from Cryptodome.Hash import keccak
 import unicodedata
 import hashlib
 import base58
